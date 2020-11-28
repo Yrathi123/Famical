@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+</head>
+<body>
+
+<h1 class="hii">Please fill the following information!</h1>
+  
+</div>
+<div class="">
+
+<hr>
+
+
+<div class="row justify-content-center">
+<div class="col-md-6">
+<div class="card">
+
+<article class="card-body">
+<form>
+
+
+	<!--Names-->
+	<div class="form-row">
+		<div class="col form-group">
+			<label>First name </label>   
+		  	<input type="text" id="fname" name="fname" class="form-control" placeholder="">
+		</div> <!-- form-group end.// -->
+
+
+		<!-- last name -->
+		<div class="col form-group">
+			<label>Last name</label>
+		  	<input type="text" id="lname" name="lname" class="form-control" placeholder=" ">
+		</div> <!-- form-group end.// -->
+	</div> <!-- form-row end.// -->
+
+
+	<!--Email-->
+	<div class="form-group">
+		<label>Email address</label>
+		<input type="email" id="email" name="email" class="form-control" placeholder="">
+		<small class="form-text text-muted">We'll never share your email with anyone else.</small>
+	</div> <!-- form-group end.// -->
+
+
+<!--phone number-->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>Phone Number</label>
+		  <input type="number" id="pnum" name="pnum" class="form-control">
+		</div> <!-- form-group end.// -->
+		 
+	</div> <!-- form-row.// -->
+
+
+
+
+	<!--Gender/sex-->
+	<div class="form-group">
+			<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" id="male" name="gender" value="option1">
+		  <span class="form-check-label"> Male </span>
+		</label>
+		<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio"  id=" female" name="gender" value="option2">
+		  <span class="form-check-label"> Female</span>
+		</label>
+		<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" id="Other" name="gender" value="option2">
+		  <span class="form-check-label"> Other</span>
+		</label>
+	</div> <!-- form-group end.// -->
+
+
+	<!--Agw-->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label for="age">Age</label>
+		  <input type="number" id="age" name="age" class="form-control">
+		</div> <!-- form-group end.// -->
+
+
+		<!--DATE OF BIRTH-->
+		 <div class="form-group col-md-6">
+		  <label for="dob">Date of Birth</label>
+		  <input type="date" id="dob" name="dob" class="form-control">
+		</div><!-- form-group end.// -->
+	</div> <!-- form-row.// -->
+
+
+
+	
+	<!-- Qalification -->	
+	<div class="form-group">
+		<label>Qualification</label>
+	    <input class="form-control" id="qualification" name="qualification" type="text">
+	</div>
+
+
+	<!-- Hospital details -->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label><span style="font-weight: bold;"> Hospital Details</span> </label>
+		 </div>
+	</div> <!-- form-row.// -->
+
+
+
+	<!-- Hospital name-->
+	<div class="form-group">
+		<label>Name of Hospital</label>
+	    <input class="form-control" id="hname" name="hname" type="text">
+	</div>
+
+
+	<!-- Department -->
+	<div class="form-group">
+		<label>Department you work</label>
+	    <input class="form-control" id="dept" name="dept" type="text">
+	</div>
+
+
+
+	<!-- HOSPITAL CITY(Hospital address)-->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>City</label>
+		  <input type="text" id="hcity" name="hcity" class="form-control">
+		</div> <!-- form-group end.// -->
+
+
+		<!-- Street name of hospital (hospital address)-->
+		 <div class="form-group col-md-6">
+		  <label>Street Name/Number</label>
+		  <input type="text" id="street" name="street" class="form-control">
+		</div><!-- form-group end.// -->
+	</div> <!-- form-row.// -->
+
+
+
+	
+	<!-- State(hospital) -->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>State</label>
+		  <select id="inputState" name="stateInput" class="form-control">
+		    <option> Choose...</option>
+		      <option>Uzbekistan</option>
+		      <option>Russia</option>
+		      <option >United States</option>
+		      <option >India</option>
+		      <option>Afganistan</option>
+		  </select>
+		</div> <!-- form-group end.// -->
+
+
+		<!-- country (hospital)-->
+		<div class="form-group col-md-6">
+		  <label>Country</label>
+		  <select id="inputState" name="countryInput" class="form-control">
+		    <option> Choose...</option>
+		      <option>Uzbekistan</option>
+		      <option>Russia</option>
+		      <option >United States</option>
+		      <option selected="">India</option>
+		      <option>Afganistan</option>
+		  </select>
+		</div> <!-- form-group end.// -->
+	</div> <!-- form-row.// -->
+
+
+	<!-- Pin code-->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>Pin Code</label>
+		  <input type="number" id="hpin" name="hpin" class="form-control">
+		</div> <!-- form-group end.// -->
+	
+	</div>
+
+
+	<!-- hospital contact number-->
+<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>Hospital Contact Number</label>
+		  <input type="tel" id="hnum" name="hnum" class="form-control">
+		</div> <!-- form-group end.// -->
+		
+	</div> <!-- form-row.// -->
+
+
+
+
+
+
+	<!-- user id created by the doctor-->
+	<div class="form-group">
+		<label>Create UserID</label>
+	    <input class="form-control" id="uid" name="uid" type="text">
+	</div>
+
+
+
+	<!-- password created by the doctor-->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>Create Password</label>
+		  <input type="password" id="pass" name="pass" class="form-control">
+		</div> <!-- form-group end.// -->
+
+
+		<!-- password confirmation -->
+		 <div class="form-group col-md-6">
+		  <label>Confirm Password</label>
+		  <input type="password" id="pass" name="pass" class="form-control">
+		</div><!-- form-group end.// -->
+	</div> <!-- form-row.// -->
+
+
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Register  </button>
+    </div> <!-- form-group// -->   
+
+
+    <small class="text-muted">By clicking the 'Sign Up' button, you confirm that you accept our <br> Terms of use and Privacy Policy.</small>                                          
+</form>
+</article> <!-- card-body end .// -->
+<div class="border-top card-body text-center">Have an account? <a href="sl1index.html#form">Log In</a></div>
+</div> <!-- card.// -->
+</div> <!-- col.//-->
+
+</div> <!-- row.//-->
+
+
+</div> 
+<!--container end.//-->
+
+<br><br>
+
+<style>
+
+.hii{
+	font-size: 240%;
+	font-weight: 100; 
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #000000;
+	font-weight: 200;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+
+
+
+</body>
+</html>
